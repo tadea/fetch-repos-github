@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600"
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="./img/favicon.png" />
@@ -23,8 +23,7 @@
                 GitHub Fetch a Profile
               </h1>
               <p class="main__subtitle">
-                Check out the repos, followers and more, <br />
-                by entering a username!
+                Get the repos, followers and more
               </p>
             </div>
             <div class="main__input-container">
@@ -43,18 +42,24 @@
         <div class="main__profile-container">
           <div class="main__profile">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-9">
+                <img id="image" class="main__profile-avatar main__profile-key"/>          
+              </div>
+              <div class="col-md-9">
                 <p class="main__profile-name main__profile-key"></p>
                 <p class="main__profile-username main__profile-key"></p>
+                <p class="main__profile-bio main__profile-key"></p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-9">
+                <p class="main__profile-followers main__profile-key"></p>
+                <p class="main__profile-following main__profile-key"></p>
                 <p class="main__profile-repos main__profile-key"></p>
                 <p class="main__profile-url main__profile-key"></p>
               </div>
+              
             </div>
           </div>
         </div>
-      </div>
     </div>
     <script src="./js/app.js"></script>
     <!-- main end -->
