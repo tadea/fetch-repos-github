@@ -8488,8 +8488,10 @@ a:hover {
 .main__profile-key {
   color: #eeb83b;
   padding-bottom: 2rem;
+  font-size: 25px;
 }
 .main__profile-value {
   color: #fff;
   font-family: "Titillium Web";
+  font-size: 20px;
 }
